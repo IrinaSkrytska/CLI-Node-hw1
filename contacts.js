@@ -48,7 +48,7 @@ async function addContact(name, email, phone) {
   await updateContacts(contactList);
   return newContact;
 }
-
+//------------------------ COMMANDER MODULE --------------------//
 module.exports = {
   listContacts,
   getContactById,
